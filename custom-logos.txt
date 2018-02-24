@@ -4,3 +4,4 @@ ba-rp.net:7777=barp
 server.one-rp.com:7777=onerp
 samp.hzgaming.net:7777=hzrp
 138.201.184.48:7777=sef
+127.0.0.1:777=paki
