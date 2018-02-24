@@ -3,7 +3,6 @@
 #include <Windows.h>
 #include <Wininet.h>
 #include <functional>
-
 #pragma comment(lib, "Wininet.lib")
 
 namespace HTTP
