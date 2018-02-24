@@ -1,7 +1,7 @@
 #pragma once
 
 #include <string>
-#include <winsock.h>
+#include <winsock2.h>
 #pragma comment(lib, "Ws2_32.lib")
 
 #define QUERY_DEFAULT_TIMEOUT 1000
