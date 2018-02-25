@@ -29,7 +29,5 @@ namespace HTTP
 		HINTERNET session;
 
 		WebCallback callback;
-
-		bool processed;
 	};
 }
