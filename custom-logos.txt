@@ -8,3 +8,4 @@ samp.hzgaming.net:7777=hzrp
 rpg.b-gaming.ro:7777=b-gaming
 217.182.206.227:7777=cubie
 5.254.66.17:7777=badlands
+server.advanced-roleplay.com.br:7777=advancedrp
