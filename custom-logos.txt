@@ -16,3 +16,4 @@ server.ls-rp.io:7777=lsrp
 188.166.244.5:7777=jgdm
 144.76.68.79:7830=ugd
 185.12.178.71:7783=btg
+gamma.notype.ro=notype
