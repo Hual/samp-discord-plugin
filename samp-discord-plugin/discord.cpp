@@ -2,7 +2,7 @@
 
 namespace Discord
 {
-	static void ready() {}
+	static void ready(const DiscordUser* request) {}
 
 	static void errored(int errorCode, const char* message) {}
 
@@ -12,7 +12,7 @@ namespace Discord
 
 	static void spectateGame(const char* spectateSecret) {}
 
-	static void joinRequest(const DiscordJoinRequest* request) {}
+	static void joinRequest(const DiscordUser* request) {}
 
 	void initialize()
 	{
