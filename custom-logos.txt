@@ -17,3 +17,4 @@ server.ls-rp.io:7777=lsrp
 144.76.68.79:7830=ugd
 185.12.178.71:7783=btg
 gamma.notype.ro=notype
+samp.leroleplay.fr:1200=lerp
