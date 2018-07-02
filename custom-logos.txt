@@ -18,4 +18,5 @@ server.ls-rp.io:7777=lsrp
 185.12.178.71:7783=btg
 gamma.notype.ro=notype
 samp.leroleplay.fr:1200=lerp
- samp.xsfserver.com:7777=xsf
+samp.xsfserver.com:7777=xsf
+151.80.47.231:7777=vendetta
