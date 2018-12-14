@@ -24,3 +24,4 @@ samp.xsfserver.com:7777=xsf
 151.80.47.231:7777=vendetta
 89.162.7.111:7777=rdm
 185.169.52.219:7777=hrp
+server.sacnr.com:7777=sacnr
