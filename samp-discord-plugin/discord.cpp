@@ -24,11 +24,7 @@ namespace Discord
 		handlers.spectateGame = spectateGame;
 		handlers.joinRequest = joinRequest;
 		Discord_Initialize("416719211960991756", &handlers, 1, nullptr);
-	}
-
-	void shutdown()
-	{
-		Discord_Shutdown();
+		Discord_ClearPresence();
 	}
 
 	void update(const time_t time, const char* state, const char* details, const char* image, const char* imageDetails, const char* infoDetails)

@@ -1,4 +1,4 @@
-﻿#include <process.h>
+#include <process.h>
 #include "client.h"
 #include "discord.h"
 #include "query.h"
@@ -9,6 +9,7 @@ static void process(void*)
 	SAMP::ServerData data;
 	WSADATA wsa;
 	WSAStartup(MAKEWORD(2, 2), &wsa);
+	Discord::initialize();
 	if (SAMP::readServerData(GetCommandLine(), data)) {
 		std::string logo = "logo";
 		{
@@ -30,7 +31,6 @@ static void process(void*)
 		if (data.connect == SAMP::SAMP_CONNECT_SERVER) {
 			SAMP::Query query(data.address, std::stoi(data.port));
 			while (true) {
-				Discord::initialize();
 				SAMP::Query::Information information;
 				if (query.info(information)) {
 					auto fullAddress = data.address + ':' + data.port;
@@ -51,7 +51,10 @@ static void process(void*)
 			}
 		}
 		else if (data.connect == SAMP::SAMP_CONNECT_DEBUG) {
-			Discord::update(start, "localhost", "Debug server", "tumbleweed", "Playing debug mode in English", "Most likely 1 player online as it's debug mode");
+			while (true) {
+				Discord::update(start, "localhost", "Debug server", "tumbleweed", "Playing debug mode in English", "Most likely 1 player online as it's debug mode");
+				Sleep(15000);
+			}
 		}
 	}
 }
@@ -66,7 +69,6 @@ BOOL APIENTRY DllMain(HMODULE module, DWORD reason, LPVOID reserved)
 			break;
 		}
 		case DLL_PROCESS_DETACH: {
-			Discord::shutdown();
 			WSACleanup();
 			break;
 		}
