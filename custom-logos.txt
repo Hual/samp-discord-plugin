@@ -37,3 +37,7 @@ samp.realidade-carioca.com:7777=realidade
 94.54.72.66:7777=mitsu
 51.68.208.5:7777=nef
 server.pursuits.xyz:7777=pursuits
+samp.discoverylife.nl:7777=discoverylife
+192.95.10.16:5575=urbanlife
+104.207.145.192:7777=spectrumrp
+IP: 77.83.201.226:7777=vicem
