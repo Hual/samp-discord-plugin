@@ -66,3 +66,4 @@ samp.uk-rp.com=ukrp
 server.eastcountyrp.com:7777=ecrp
 45.77.67.63:7777=ecrp
 45.76.163.152:7777=nusantara
+62.171.156.232:7777=gstone
