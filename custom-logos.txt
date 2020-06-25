@@ -69,3 +69,4 @@ server.eastcountyrp.com:7777=ecrp
 62.171.156.232:7777=gstone
 play.uifserver.net:7776=uif
 51.254.85.134:7776=uif
+91.134.166.78:7777=svt
