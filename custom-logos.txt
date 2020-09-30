@@ -70,3 +70,5 @@ server.eastcountyrp.com:7777=ecrp
 play.uifserver.net:7776=uif
 51.254.85.134:7776=uif
 91.134.166.78:7777=svt
+77.83.201.227:7777=19rp
+server.nineteen-roleplay.com=19rp
