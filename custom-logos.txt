@@ -103,3 +103,4 @@ s3.gta-multiplayer.cz:7777=wtlscz
 s4.gta-multiplayer.cz:7777=wtlscz
 144.217.171.90:7777=superdanovarp2
 139.99.61.130:7777=deluxmallurp
+139.99.26.39:8203=lunarpriderp
