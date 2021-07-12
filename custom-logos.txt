@@ -107,3 +107,5 @@ s4.gta-multiplayer.cz:7777=wtlscz
 198.245.62.45:7857=capitalprp
 149.202.65.6:7777=vcrpzeppelin
 80.241.245.126:1113=lsstories
+sv.gvc.vn:7777=gvcrp
+45.124.84.33=gvcrp
