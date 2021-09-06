@@ -120,3 +120,4 @@ ca12.heavyhost.com.br:7774=theoriginalrp
 5.180.105.208:7777=victoryrp
 51.210.96.99:7777=projectsfrp
 91.121.87.14:5492=dreamcommunityrp
+139.162.22.156:7777=gtapinasrp
