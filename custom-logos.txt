@@ -123,4 +123,4 @@ ca12.heavyhost.com.br:7774=theoriginalrp
 139.162.22.156:7777=gtapinasrp
 198.100.154.62:7777=guerrasmundiales
 samp.neucomx.com:7777=guerrasmundiales
-103.92.24.235:7777=saglobalrp
+103.98.152.57:7777=saglobalrp
