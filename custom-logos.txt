@@ -125,3 +125,5 @@ ca12.heavyhost.com.br:7774=theoriginalrp
 samp.neucomx.com:7777=guerrasmundiales
 103.98.152.57:7777=saglobalrp
 ip.redeparadox.com:7777=redparadoxrpg
+217.160.43.156:3800=sapucopchase
+23.94.134.118:7777=eliterp
